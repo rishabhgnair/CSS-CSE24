@@ -1,0 +1,45 @@
+/* Element selector: applies to all divs */
+div {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid #333;
+}
+
+/* Class selectors: shared styling for groups */
+.red-box {
+  background-color: #ffcccc;
+  font-size: 1.2em;   /* relative to parent */
+}
+
+.blue-box {
+  background-color: #cce5ff;
+  font-size: 1.5rem;  /* relative to root */
+}
+
+.green-box {
+  background-color: #ccffcc;
+  font-size: 120%;   /* relative to parent */
+}
+
+.yellow-box {
+  background-color: #fff3cd;
+  font-size: 18px;   /* fixed size */
+}
+
+/* ID selectors: unique styles */
+#first {
+  border-radius: 8px;
+}
+
+#second {
+  text-align: center;
+}
+
+#third {
+  font-weight: bold;
+}
+
+#fourth {
+  box-shadow: 2px 2px 5px gray;
+}

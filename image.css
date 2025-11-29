@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Porsche 911 Turbo S — Rooftop Scene</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <figure class="card">
+      <div class="media">
+        <!-- Replace "porsche-911.jpg" with your actual image path or URL -->
+        <img
+          src="porsche-911.jpg"
+          alt="Sleek black Porsche 911 Turbo S parked on a wet rooftop with a dramatic city skyline under cloudy skies."
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <figcaption class="caption">
+        <div class="title">Porsche 911 Turbo S — Rooftop after rain</div>
+        <div class="desc">
+          A high-performance sports car with aerodynamic lines, large alloy wheels and yellow calipers,
+          captured against an urban skyline on a glistening rooftop surface.
+        </div>
+        <div class="meta">
+          <span>Location: City skyline</span>
+          <span>Atmosphere: Cloudy, post-rain</span>
+          <span>Detail: Rear spoiler, wet surface reflections</span>
+        </div>
+      </figcaption>
+    </figure>
+  </main>
+</body>
+</html>

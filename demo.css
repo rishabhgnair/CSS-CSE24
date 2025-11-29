@@ -1,0 +1,26 @@
+/* Product card styling */
+.product-card {
+  display: inline-block;   /* key property for side-by-side layout */
+  width: 150px;            /* fixed width for each card */
+  margin: 10px;            /* spacing between cards */
+  padding: 15px;           /* inner spacing */
+  border: 2px solid #333;  /* border around each card */
+  border-radius: 8px;      /* rounded corners */
+  background-color: #f9f9f9;
+  text-align: center;      /* center text inside card */
+  font-family: Arial, sans-serif;
+}
+
+/* Product name */
+.product-card h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #4CAF50;          /* green color for product name */
+}
+
+/* Product price */
+.product-card p {
+  margin: 0;
+  font-size: 16px;
+  color: #555;             /* gray color for price */
+}

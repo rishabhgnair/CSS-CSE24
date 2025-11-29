@@ -1,0 +1,23 @@
+/* Flex container */
+.flex-container {
+  display: flex;              /* enable flexbox */
+  flex-direction: row;        /* items in a row */
+  flex-wrap: wrap;            /* allow wrapping to next line */
+  justify-content: space-around; /* distribute space evenly */
+  align-items: center;        /* align items vertically */
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+/* Flex items */
+.flex-item {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  font-size: 18px;
+  flex: 1 1 100px; /* grow, shrink, basis */
+  border-radius: 8px;
+}

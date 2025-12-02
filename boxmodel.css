@@ -1,0 +1,24 @@
+.outer-box {
+    border: 3px solid black;   
+    padding: 20px; 
+    margin-top: 0%;           
+}
+
+.inner-box {
+    background-color: blue;
+    padding: 40px;
+}
+
+.content-box {
+    background-color: yellow;
+    padding: 50px;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+.text-box {
+    background-color: lightgray;
+    padding: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
